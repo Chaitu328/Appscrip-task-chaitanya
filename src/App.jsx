@@ -10,10 +10,10 @@ const App = () => {
   return (
     <>
       <Header />
-
-      <Hero/>
-      <ProductSection />
-
+      <main>
+        <Hero />
+        <ProductSection />
+      </main>   
       <Footer />
     </>
   );

@@ -2,7 +2,7 @@ import { ProductFilters } from "./ProductFilters"
 import { ProductGrid } from "./ProductGrid"
 import  { useState } from "react"
 
-export const ProductSection = () => {
+export default function ProductSection ()  {
   // State for filters toggle
   const [filtersVisible, setFiltersVisible] = useState(true);
   // State for sort option
